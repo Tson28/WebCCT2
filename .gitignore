@@ -1,0 +1,20 @@
+# Node
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+**/.cache/
+
+# Env
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store

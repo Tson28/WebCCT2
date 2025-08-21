@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python coursers</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .navbar-collapse {
+            flex-grow: 0;
+        }
+
+        .navbar-collapse-right {
+            margin-left: 750px;
+        }
+
+        .container-wrap {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 48px;
+        }
+
+        .course-list {
+            padding-top: 40px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #dcdacb;
+        }
+
+        .udlite-container {
+            width: 100%;
+            max-width: 1340px;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 30px 2.4px 30px 2.4px;
+        }
+
+        .heading-xl {
+            font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif,
+                apple color emoji, segoe ui emoji, segoe ui symbol;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -.02px;
+            font-size: 24px;
+        }
+
+        .img {
+            float: left;
+            width: 260px;
+            height: 145px;
+            margin-right: 20px;
+        }
+
+        .btn-group {
+            margin-top: 20px;
+        }
+
+        .card-hot {
+            width: 40px;
+            height: 25px;
+            background-color: rgba(243, 70, 70, 0.788);
+        }
+
+        .card-new {
+            width: 40px;
+            height: 25px;
+            background-color: rgb(86, 202, 86);
+        }
+
+        .card-best {
+            width: 40px;
+            height: 25px;
+            background-color: rgb(226, 226, 73);
+        }
+
+        .price {
+            float: right;
+            font-size: 20px;
+        }
+
+        .fa-star {
+            font-size: 13px;
+        }
+
+        .footer-container {
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="navbar-collapse-right">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="btn btn-link" style="color: snow;">Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-success">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-wrap">
+        <div name='python-coursers' class="udlite-container">
+            <h1 class="heading-xl">Khóa học về Python</h1>
+            <form>
+                <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                        <select class="custom-select mr-sm-2">
+                            <option selected>Sắp xếp theo</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+
+            <div class="course-list">
+                <a href="#">
+                    <img src="/image/11.jpg" alt="" class="img">
+                </a>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <a href="#">
+                            <h4>Python for Everybody</h4>
+                        </a>
+                        <p style="font-size: 13px;">Shrirang Korde</p>
+                        <div>Learn Python like a Professional Start from the basics and go all the way to creating
+                            your own applications and games</div>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="far fa-star text-warning"></span>
+                        <span><strong class="text-warning">4.0</strong></span><br>
+                        <div class="card card-hot">
+                            <strong class="text-center" style="font-size: 13px;">Hot</strong>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <strong class="price">$11.5</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-list">
+                <a href="#">
+                    <img src="/image/11.jpg" alt="" class="img">
+                </a>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <a href="#">
+                            <h4>Python for Everybody</h4>
+                        </a>
+                        <p style="font-size: 13px;">Shrirang Korde</p>
+                        <div>Learn Python like a Professional Start from the basics and go all the way to creating
+                            your own applications and games</div>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="far fa-star text-warning"></span>
+                        <span><strong class="text-warning">4.0</strong></span><br>
+                        <div class="card card-new">
+                            <strong class="text-center" style="font-size: 13px;">New</strong>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <strong class="price">$11.5</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-list">
+                <a href="#">
+                    <img src="/image/11.jpg" alt="" class="img">
+                </a>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <a href="#">
+                            <h4>Python for Everybody</h4>
+                        </a>
+                        <p style="font-size: 13px;">Shrirang Korde</p>
+                        <div>Learn Python like a Professional Start from the basics and go all the way to creating
+                            your own applications and games</div>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="far fa-star text-warning"></span>
+                        <span><strong class="text-warning">4.0</strong></span><br>
+                        <div class="card card-best">
+                            <strong class="text-center" style="font-size: 13px;">Best</strong>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <strong class="price">$11.5</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-list">
+                <a href="#">
+                    <img src="/image/11.jpg" alt="" class="img">
+                </a>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <a href="#">
+                            <h4>Python for Everybody</h4>
+                        </a>
+                        <p style="font-size: 13px;">Shrirang Korde</p>
+                        <div>Learn Python like a Professional Start from the basics and go all the way to creating
+                            your own applications and games</div>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="far fa-star text-warning"></span>
+                        <span><strong class="text-warning">4.0</strong></span><br>
+                        <div class="card card-hot">
+                            <strong class="text-center" style="font-size: 13px;">Hot</strong>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <strong class="price">$11.5</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-list">
+                <a href="#">
+                    <img src="/image/11.jpg" alt="" class="img">
+                </a>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <a href="#">
+                            <h4>Python for Everybody</h4>
+                        </a>
+                        <p style="font-size: 13px;">Shrirang Korde</p>
+                        <div>Learn Python like a Professional Start from the basics and go all the way to creating
+                            your own applications and games</div>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="fa fa-star text-warning"></span>
+                        <span class="far fa-star text-warning"></span>
+                        <span><strong class="text-warning">4.0</strong></span><br>
+                        <div class="card card-hot">
+                            <strong class="text-center" style="font-size: 13px;">Hot</strong>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <strong class="price">$11.5</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        @ copyright by web CTT2 team
+    </div>
+</body>
+
+</html>
