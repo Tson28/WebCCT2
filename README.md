@@ -103,11 +103,5 @@
 - **Giao diện quản lý danh sách khóa học**
     ![](https://res.cloudinary.com/teamwebctt2/image/upload/v1613295430/webctt2/readme/qldanhsachkhoahoc_sl2waj.png)
 
-- **Giao diện quản lý danh sách học viên**
-    ![](https://res.cloudinary.com/teamwebctt2/image/upload/v1613295430/webctt2/readme/qldanhsachhocvien_kxjije.png)
-
-- **Giao diện quản lý danh sách category**
-    ![](https://res.cloudinary.com/teamwebctt2/image/upload/v1613295430/webctt2/readme/qldanhsachcategory_siv9dh.png)
- 
-___
+  
 **END**
